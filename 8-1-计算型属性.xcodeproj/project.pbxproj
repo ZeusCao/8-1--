@@ -14,6 +14,7 @@
 		C02DD3F71F305A25000409B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02DD3F51F305A25000409B0 /* LaunchScreen.storyboard */; };
 		C02DD4021F305A25000409B0 /* __1______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02DD4011F305A25000409B0 /* __1______Tests.swift */; };
 		C02DD40D1F305A25000409B0 /* __1______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02DD40C1F305A25000409B0 /* __1______UITests.swift */; };
+		C02DD41B1F305A41000409B0 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02DD41A1F305A41000409B0 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C02DD4081F305A25000409B0 /* 8-1-计算型属性UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "8-1-计算型属性UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C02DD40C1F305A25000409B0 /* __1______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "__1______UITests.swift"; sourceTree = "<group>"; };
 		C02DD40E1F305A25000409B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C02DD41A1F305A41000409B0 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				C02DD3EC1F305A25000409B0 /* AppDelegate.swift */,
 				C02DD3EE1F305A25000409B0 /* ViewController.swift */,
+				C02DD41A1F305A41000409B0 /* Person.swift */,
 				C02DD3F01F305A25000409B0 /* Main.storyboard */,
 				C02DD3F31F305A25000409B0 /* Assets.xcassets */,
 				C02DD3F51F305A25000409B0 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C02DD41B1F305A41000409B0 /* Person.swift in Sources */,
 				C02DD3EF1F305A25000409B0 /* ViewController.swift in Sources */,
 				C02DD3ED1F305A25000409B0 /* AppDelegate.swift in Sources */,
 			);
